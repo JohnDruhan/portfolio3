@@ -55,15 +55,23 @@ $(document).ready(function () {
 
         var projcard6 = $("<div class='col s12 m6 l4'><div class='card medium'><div class='card-image'><img src='assets/images/AceDetailing.png'><span style='font-size:1.40em;' class='card-title white-text red'>Ace Auto Detail</span></div><div class='card-content'><p class='card-textcontent'>Custom Web-App created from ground up for local business.<br>jQuery - API - Fifebase</p></div><a style='font-size:1.40em;padding:10px;' class='red-text' href='https://johnharlepas.github.io/Project1_API/index.html' target='_blank'>View Project</a><p style='font-size:1.40em;margin-top: 15px; margin-bottom: 5px;'></a></p></div></div>");
 
+        var projcard7 = $("<div class='col s12 m6 l4'><div class='card medium'><div class='card-image'><img src='assets/images/yourBrand.png'><span style='font-size:1.40em;' class='card-title white-text red'>Your Brand Web Page</span></div><div class='card-content'><p class='card-textcontent'>Custom Web Page promoting your brand.<br>javaScript - PHP - API</p></div><a style='font-size:1.40em;padding:10px;' class='red-text' href='https://johndruhan.github.io/yourbrand/index.html' target='_blank'>View Web Page</a><p style='font-size:1.40em;margin-top: 15px; margin-bottom: 5px;'></a></p></div></div>");
+
+        var projcard8 = $("<div class='col s12 m6 l4'><div class='card medium'><div class='card-image'><img src='assets/images/friendFinder.png'><span style='font-size:1.40em;' class='card-title white-text red'>Friend Finder</span></div><div class='card-content'><p class='card-textcontent'>A compatibility-based 'Friend Finder' application.<br>jQuery - API - Fifebase</p></div><a style='font-size:1.40em;padding:10px;' class='red-text' href='https://frozen-earth-52194.herokuapp.com/' target='_blank'>View App</a><p style='font-size:1.40em;margin-top: 15px; margin-bottom: 5px;'></a></p></div></div>");
+
+        var projcard9 = $("<div class='col s12 m6 l4'><div class='card medium'><div class='card-image'><img src='assets/images/eatBurger.png'><span style='font-size:1.40em;' class='card-title white-text red'>Eat Da Burger</span></div><div class='card-content'><p class='card-textcontent'>A restaurant App that lets users input Burger names.<br>MySQL - Node - Express - Handlebars - ORM </p></div><a style='font-size:1.40em;padding:10px;' class='red-text' href='https://floating-spire-52265.herokuapp.com/' target='_blank'>View App</a><p style='font-size:1.40em;margin-top: 15px; margin-bottom: 5px;'></a></p></div></div>");
 
         var cardrow = $("<div class='row'></div>");
         cardrow.append(projcard1).append(projcard2).append(projcard3);
         var cardrow2 = $("<div class='row'></div>");
         cardrow2.append(projcard4).append(projcard5).append(projcard6);
+        var cardrow3 = $("<div class='row'></div>");
+        cardrow3.append(projcard7).append(projcard8).append(projcard9);
         var portfolioDiv = $("<div class='content'></div>");
         portfolioDiv.attr("value",3);
         portfolioDiv.append(portfolioTitle).append(cardrow);
         portfolioDiv.append(cardrow2);
+        portfolioDiv.append(cardrow3);
         return portfolioDiv;
     }
 
